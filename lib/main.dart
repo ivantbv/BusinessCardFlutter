@@ -116,19 +116,7 @@ class ScaffoldBody extends StatelessWidget {
             // ),
             child: ListTile(
               onTap: () {
-                copyToClip('ivantbv@gmail');
-                // Clipboard.setData(new ClipboardData(text: 'ivantbv@gmail.com'))
-                //     .then((result) {
-                //   final snackBar = SnackBar(
-                //     content: Text('Copied to Clipboard'),
-                //     action: SnackBarAction(
-                //       label: 'Undo',
-                //       onPressed: () {},
-                //     ),
-                //   );
-                //   // ignore: deprecated_member_use
-                //   Scaffold.of(context).showSnackBar(snackBar);
-                // });
+                copyToClip('ivantbv@gmail.com');
               },
               title: Text(
                 'ivantbv@gmail.com',
