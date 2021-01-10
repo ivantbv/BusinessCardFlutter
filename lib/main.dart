@@ -37,6 +37,7 @@ class ScaffoldBody extends StatelessWidget {
       });
     }
 
+//this stateless widget returns a SafeArea. SafeArea fixes the visibility on some devices
     return SafeArea(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
@@ -77,11 +78,6 @@ class ScaffoldBody extends StatelessWidget {
               vertical: 15.0,
               horizontal: 30.0,
             ),
-            // decoration: BoxDecoration(
-            //   color: Colors.teal.shade50,
-            //   border: Border.all(color: Colors.blueGrey, width: 3.0),
-            //   borderRadius: BorderRadius.circular(8.0),
-            // ),
             child: ListTile(
               onTap: () {
                 copyToClip('+79021234567');
